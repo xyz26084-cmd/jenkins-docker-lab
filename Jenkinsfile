@@ -13,11 +13,7 @@ pipeline {
 	}
 	  stage('Docker run') {
 		steps {
-<<<<<<< HEAD
-		  sh 'java hello'
-=======
 		  sh "docker run --rm ${env.DOCKER_IMAGE}"
->>>>>>> eded112 (added Dockerfile and updated Jenkinsfile)
 		}
 	}  
 	 
