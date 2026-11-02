@@ -25,5 +25,6 @@ pipeline {
 		echo 'An error occured while building/running the image'
 	}
 }
-		
+	}	
+}
 	
